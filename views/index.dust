@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <title>Barg Design | طراحی سایت حرفه ای</title>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="گروه طراحی وبسایت برگ ارائه دهنده خدمات در حوزه طراحی سایت ، طراحی سایت اختصاصی ، بهینه سازی سایت ، پشتیبانی سایت ، اپلیکیشن و ...">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700%7CLato:400,700%7CLora:400,400italic' rel='stylesheet'>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="revolution/css/settings.css" />
+  <link rel="stylesheet" href="css/font-icons.css" />
+  <link rel="stylesheet" href="css/rev-slider.css" />
+  <link rel="stylesheet" href="css/sliders.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/spacings.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+</head>
+
+<body class="relative">
+
+<!-- Preloader -->
+<div class="loader-mask">
+  <div class="loader">Loading...</div>
+</div>
+
+<!-- Sidenav -->
+
+<section class="other-section">
+  <section class="sidenav">
+    <div class="logo-wrap">
+      <a href="index.html">
+        <img class="logo" src="img/NewBarg.png" alt="logo">
+      </a>
+    </div>
+    <h6 class="white mt-40">تماس با ما</h6>
+    <address class="info-address">تهران - ستارخان<br> نبش کوچه آفرند - پلاک 3 - واحد 5 </address>
+    <p >تلفن: <a href="tel:+989302505002" style="direction:ltr;">2005 052 39 98+</a></p>
+    <p>ایمیل: <a href="mailto:info@barg.xyz">info@barg.xyz</a></p>
+    <h6 class="white mt-40">لینک های مفید</h6>
+    <ul class="links-list nopadding">
+      <li><a href="portfolio">نمونه کار ها</a></li>
+      <li><a href="about">درباره ما</a></li>
+      <li><a href="blog">بلاگ</a></li>
+    </ul>
+
+    <div class="social-icons dark rounded mt-40">
+      <a href="instagram.com/jv_kmi"><i class="fab fa-instagram"></i></a>
+      <a href="t.me/jv_kmi"><i class="fab fa-telegram"></i></a>
+      <a href="mailto:javadkarami1376@gmail.com"><i class="fa fa-google-plus"></i></a>
+      <a href="mailto:javadkarami14@yahoo.com"><i class="fa fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <div class="main-wrapper">
+
+    <header class="nav-type-1 transparent">
+
+      <div class="search-wrap">
+        <div class="search-inner">
+          <div class="search-cell">
+            <form method="get">
+              <div class="search-field-holder">
+                <input type="search" class="form-control main-search-input" placeholder="Search for">
+                <i class="ti-close search-close" id="search-close"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-static-top">
+        <div class="navigation">
+          <div class="container-fluid semi-fluid relative">
+
+            <div class="row">
+
+              <div class="navbar-header">
+                <!-- Logo -->
+                <div class="logo-container">
+                  <div class="logo-wrap">
+                    <a href="index.html">
+                      <img class="logo" src="img/NewBarg.png" alt="logo">
+                      <img class="logo-dark" src="img/NewBarg.png" alt="logo">
+                    </a>
+                  </div>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+              </div> <!-- end navbar-header -->
+
+              <div class="col-md-12 nav-wrap">
+                <div class="collapse navbar-collapse text-center" id="navbar-collapse">
+
+                  <ul class="nav navbar-nav">
+
+                    <li>
+                      <a href="#">خانه</a>
+                    </li>
+                    <li>
+                      <a href="services">خدمات</a>
+                    </li>
+                    <li>
+                      <a href="portfolio">نمونه کار ها</a>
+                    </li>
+                    <li>
+                      <a href="about">درباره ما</a>
+                    </li>
+                    <li>
+                      <a href="blog">بلاگ</a>
+                    </li>
+                    <li>
+                      <a href="contact">تماس با ما</a>
+                    </li>
+
+
+
+
+
+
+                  </ul> <!-- end menu -->
+                </div> <!-- end collapse -->
+              </div> <!-- end col -->
+
+              <ul class="nav-right hidden-sm hidden-xs">
+
+
+
+
+                <li class="nav-icon-trigger">
+                  <a href="#" id="nav-icon">
+                    <div class="nav-icon-inner">
+                      <div class="nav-icon-wrap">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+
+            </div> <!-- end row -->
+          </div> <!-- end container -->
+        </div> <!-- end navigation -->
+      </nav> <!-- end navbar -->
+    </header>
+
+    <div class="content-wrapper oh">
+
+      <!-- Revolution Slider -->
+      <section>
+        <div class="rev-offset"></div>
+        <div class="rev_slider_wrapper">
+          <div class="rev_slider" id="slider1" data-version="5.0">
+            <ul>
+              <!-- SLIDE 1 -->
+              <li data-fstransition="fade"
+                  data-transition="parallaxtoright"
+                  data-slotamount="1"
+                  data-masterspeed="1000"
+                  data-delay="8000"
+                  data-title="Creative Minimalism">
+
+                <!-- MAIN IMAGE -->
+                <img src="img/revolution/slide_1.jpg"
+                     alt="اسلایدر"
+                     data-bgrepeat="no-repeat"
+                     data-bgfit="cover"
+                     data-bgparallax="7"
+                     class="rev-slidebg"
+                >
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption hero-text text-center uppercase"
+                     style="font-family:IRANSans"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="['-100', '-90', '-80', '-110']"
+                     data-fontsize="['80', '70', '60', '40']"
+                     data-lineheight="['70', '65', '50', '40']"
+                     data-fontweight="700"
+                     data-whitespace="[nowrap, nowrap, nowrap, nowrap]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:100;scaleX:0.5;scaleY:0.5;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1000"
+                     data-elementdelay="0.01">طراحی خلاقانه
+                </div>
+
+                <!-- LAYER NR. 2 -->
+                <div class="tp-caption hero-text text-center uppercase"
+                     style="font-family:IRANSans"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="['6','6','6','-60']"
+                     data-fontsize="['100', '90', '80', '40']"
+                     data-lineheight="['70', '65', '50', '40']"
+                     data-fontweight="700"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:50;scaleX:0.5;scaleY:0.5;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1200"
+                     data-elementdelay="0.01">دانش و تخصص
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption medium-text text-center"
+                     style="font-family:IRANSans"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[90,90,90,10]"
+                     data-fontsize="['22', '22', '22', '20']"
+                     data-lineheight="[22,22,22,28]"
+                     data-whitespace="[nowrap,nowrap,nowrap,normal]"
+                     data-width="[auto,auto,auto,300]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:100;scaleX:0.5;scaleY:0.5;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1300"
+                     data-elementdelay="0.01">اگر به دنبال یک سایت متفاوت و ایده آل میباشید
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption medium-text text-center"
+                     style="font-family:IRANSans"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[124,124,124,50]"
+                     data-fontsize="['22', '22', '22', '20']"
+                     data-lineheight="[22,22,22,28]"
+                     data-whitespace="[nowrap,nowrap,nowrap,normal]"
+                     data-width="[auto,auto,auto,300]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:100;scaleX:0.5;scaleY:0.5;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1300"
+                     data-elementdelay="0.01">ما برای شما خلاقانه فکر میکنیم
+                </div>
+
+                <!-- LAYER NR. 4 -->
+                <!-- <div class="tp-caption tp-resizeme"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="[220, 220, 220, 120]"
+                  data-hoffset="-85"
+                  data-transform_idle="o:1;s:500"
+                  data-transform_in="y:50;scaleX:1;scaleY:1;opacity:0;"
+                  data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                  data-start="1500"
+                  data-elementdelay="0.01"
+                  data-linktoslide="next"><a href='#' class='btn btn-lg rounded btn-color'>Buy it Now</a>
+                </div> -->
+
+                <!-- LAYER NR. 5 -->
+                <!-- <div class="tp-caption tp-resizeme"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="[220, 220, 220, 120]"
+                  data-hoffset="85"
+                  data-transform_idle="o:1;s:500"
+                  data-transform_in="y:50;scaleX:1;scaleY:1;opacity:0;"
+                  data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                  data-start="1500"
+                  data-elementdelay="0.01"
+                  data-linktoslide="next"><a href='#' class='btn btn-lg rounded btn-transparent'>Learn More</a>
+                </div> -->
+
+              </li>
+
+              <!-- SLIDE 2 -->
+              <li data-transition="parallaxtoright"
+                  data-slotamount="1"
+                  data-masterspeed="1000"
+                  data-delay="8000"
+                  data-title="Great Ideas">
+
+                <!-- MAIN IMAGE -->
+                <img src="img/revolution/slide_2.jpg"
+                     alt="SLIDER"
+                     data-bgrepeat="no-repeat"
+                     data-bgfit="cover"
+                     data-bgparallax="7"
+                     class="rev-slidebg"
+                >
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-resizeme"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[0,0,0,0]"
+                     data-lineheight="['70', '65', '50', '40']"
+                     data-whitespace="[nowrap, nowrap, nowrap, nowrap]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:100;scaleX:2;scaleY:2;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1000"
+                     data-responsive_offset="on"
+                     data-elementdelay="0.01">
+                  <img src="img/revolution/text_1.png" alt="slider" width="970" height="270" data-ww="['970px','870px','770px','360px']" data-hh="['270px','250px','250px','100px']" data-no-retina>
+                </div>
+
+              </li>
+
+              <!-- SLIDE 3 -->
+              <li data-transition="parallaxtoright"
+                  data-slotamount="1"
+                  data-masterspeed="1000"
+                  data-delay="8000"
+                  data-title="Great Ideas">
+
+                <!-- MAIN IMAGE -->
+                <img src="img/revolution/slide_3.jpg"
+                     alt="slider"
+                     data-bgrepeat="no-repeat"
+                     data-bgfit="cover"
+                     data-bgparallax="7"
+                     class="rev-slidebg"
+                >
+
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption hero-text text-center"
+                     style="font-family:IRANSans"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="['-90', '-90', '-80', '-100']"
+                     data-fontsize="['120', '110', '100', '60']"
+                     data-lineheight="['70', '65', '50', '40']"
+                     data-fontweight="600"
+                     data-whitespace="[nowrap, nowrap, nowrap, nowrap]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:-100;scaleX:1;scaleY:1;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1200"
+                     data-elementdelay="0.01">BARG DESIGN
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption hero-text text-center"
+                     style="font-family:IRANSans; direction:rtl;"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[30,30,30,-10]"
+                     data-fontsize="['34', '34', '28', '20']"
+                     data-lineheight="[34,34,30,26]"
+                     data-whitespace="[nowrap,nowrap,nowrap,normal]"
+                     data-width="[auto,auto,auto,300]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:-100;scaleX:1;scaleY:1;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1300"
+                     data-elementdelay="0.01">حرکت در مسیر کسب رضایت مشتریان.
+                </div>
+
+                <!-- LAYER NR. 3 -->
+                <div class="tp-caption hero-text text-center"
+                     style="font-family:IRANSans; direction:rtl;"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[80,80,80,50]"
+                     data-fontsize="['34', '34', '28', '20']"
+                     data-lineheight="[34,34,30,26]"
+                     data-whitespace="[nowrap,nowrap,nowrap,normal]"
+                     data-width="[auto,auto,auto,300]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:-100;scaleX:1;scaleY:1;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1400"
+                     data-elementdelay="0.01">طراحی گرافیک خلاقانه و عدم استفاده از قالب های آماده.
+                </div>
+
+                <div class="tp-caption local-scroll mobile-offset-0"
+                     data-x="center"
+                     data-y="center"
+                     data-voffset="[200,200,200,150]"
+                     data-transform_idle="o:1;s:500"
+                     data-transform_in="y:-100;scaleX:0.5;scaleY:0.5;opacity:0;"
+                     data-transform_out="opacity:0;s:1000;e:Power3.easeInOut;"
+                     data-start="1500"
+                     style="min-width: 65px;">
+                  <a href="#intro" class="scroll-down">
+                    <i class="ti-angle-down"></i>
+                  </a>
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Icon Boxes -->
+      <section class="section-wrap icon-boxes pb-30 pb-sml-70" id="intro">
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-sm-4 nopadding mb-50">
+              <div class="service-item-box style-1 text-center">
+                <div id="svg-icon-1" class="animated-icon"></div>
+                <h3>توجه به جزییات</h3>
+                <p class="mb-0">
+                  طراحی وب سایت، یعنی سایت مطابق با آخرین تکنولوژی ها و استانداردهای روز دنیا طراحی شود.
+                </p>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 nopadding mb-50">
+              <div class="service-item-box style-1 text-center">
+                <div id="svg-icon-2" class="animated-icon"></div>
+                <h3>پشتیبانی عالی</h3>
+                <p class="mb-0">
+                  بخش مهم یک قرارداد نرم افزاری مربوط به پشتیبانی قرارداد می باشد.
+                </p>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 nopadding">
+              <div class="service-item-box style-1 last text-center">
+                <div id="svg-icon-3" class="animated-icon"></div>
+                <h3>طراحی تعاملی</h3>
+                <p class="mb-0">
+                  امروزه حجم عظیمی از کاربران از گوشی های همراهشان برای جستجو در اینترنت استفاده میکنند.
+                </p>
+              </div>
+            </div> <!-- end service item -->
+          </div>
+        </div>
+      </section> <!-- end icon boxes -->
+
+      <!-- Masonry Portfolio -->
+      <section class="section-wrap masonry-works pb-0 bg-dark">
+        <div class="container-fluid">
+
+          <div class="row heading-row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <h2 class="heading white large">خدمات برگ</h2>
+            </div>
+          </div>
+          <div class="row">
+
+            <div id="masonry-grid">
+              <div class="work-item masonry-item hover-2">
+                <div class="work-img">
+                  <a>
+                    <img src="img/portfolio/masonry/1.jpg" alt="ربات تلگرام">
+                    <div class="work-overlay">
+                      <div class="work-description">
+                        <h3>ربات تلگرام</h3>
+                        <span>Telegram</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item masonry-item hover-2">
+                <div class="work-img">
+                  <a>
+                    <img src="img/portfolio/masonry/2.jpg" alt="طراحی سایت">
+                    <div class="work-overlay">
+                      <div class="work-description">
+                        <h3>طراحی سایت</h3>
+                        <span>Web Design</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item masonry-item quarter hover-2">
+                <div class="work-img">
+                  <a>
+                    <img src="img/portfolio/masonry/3.jpg" alt="پشتیبانی سایت">
+                    <div class="work-overlay">
+                      <div class="work-description">
+                        <h3>پشتیبانی</h3>
+                        <span>Support</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item masonry-item quarter hover-2">
+                <div class="work-img">
+                  <a>
+                    <img src="img/portfolio/masonry/4.jpg" alt="طراحی اپلیکیشن">
+                    <div class="work-overlay">
+                      <div class="work-description">
+                        <h3>طراحی اپلیکیشن موبایل</h3>
+                        <span>Mobile Application</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item masonry-item hover-2">
+                <div class="work-img">
+                  <a>
+                    <img src="img/portfolio/masonry/5.jpg" alt="کمپین تبلیغاتی">
+                    <div class="work-overlay">
+                      <div class="work-description">
+                        <h3>تهیه و ارائه کمپین تبلیغاتی</h3>
+                        <span>Internet Marketing</span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div> <!-- end work-item -->
+
+            </div>
+          </div>
+        </div>
+      </section> <!-- end Masonry Portfolio -->
+
+
+      <!-- CTA style-2 -->
+      <section class="call-to-action style-2 bg-dark animated">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h2 class="white sm-text-center mb-sml-20">تمایل همکاری با ما را دارید؟</h2>
+              <a href="contact" class="cta-button btn btn-lg btn-glow rounded btn-color"><span>تماس با ما</span></a>
+            </div>
+          </div>
+        </div>
+      </section> <!-- end CTA style-2 -->
+
+
+      <!-- Icon Boxes -->
+      <section class="section-wrap icon-boxes pb-30 pb-sml-80 animated">
+        <div class="container">
+
+          <div class="row items-grid">
+
+            <div class="col-sm-4 mb-50">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-webpage-img-txt"></i>
+                </a>
+                <div class="service-text">
+                  <h3>کدنویسی اختصاصی</h3>
+                  <p>
+                    ما همیشه تلاش می کنیم ضمن رعایت اصول و استانداردها، وب سایت هایی جذاب و خاص تولید کنیم.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 mb-50">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-tablet"></i>
+                </a>
+                <div class="service-text">
+                  <h3>طراحی ریسپانسیو</h3>
+                  <p>
+                    وبسایت شما به گونه ای ریسپانسیو یا واکنش گرا طراحی می شود تا در نمایشگر تمام موبایل ها و تبلت ها به درستی نمایش داده شود.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 mb-50">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-cup"></i>
+                </a>
+                <div class="service-text">
+                  <h3>پشتیبانی 24/7</h3>
+                  <p>
+                    شرکت برگ ضمن قرارداد تعهد می نماید تا در طول مدت سه ماه/شش ماه یا یکسال(بر اساس نوع قرارداد) به پشتیبانی کامل وب سایت شما بپردازد.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 mb-50">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-sheet-pen"></i>
+                </a>
+                <div class="service-text">
+                  <h3>سئو</h3>
+                  <p>
+                    ما طرز فکر موتورهای جستجو را میشناسیم و به شما کمک میکنیم تا آن ها نیز شما را بشناسند تا نهایتا به کسب جایگاهی مناسب منجر شود.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 mb-50">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-paperplane"></i>
+                </a>
+                <div class="service-text">
+                  <h3>تولید محتوا</h3>
+                  <p>
+                    شرکت برگ با دارا بودن تیم تولید محتوا آمادگی خود را برای ایجاد مطالب مورد نظر اعلام میدارد.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+
+            <div class="col-sm-4 mb-50 last">
+              <div class="service-item-box style-3">
+                <a href="#">
+                  <i class="icon icon-basic-world"></i>
+                </a>
+                <div class="service-text">
+                  <h3>قابلیت رتینا</h3>
+                  <p>
+                    طراحی سایت و اپلیکیشن شما با قابلیت رتینا و نمایش در همه دستگاه ها با بالاترین کیفیت گرافیکی.
+                  </p>
+                </div>
+              </div>
+            </div> <!-- end service item -->
+          </div>
+
+        </div>
+      </section> <!-- end icon boxes -->
+
+      <!-- Vertical Slider -->
+      <section class="section-wrap bg-dark nopadding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-40 animated">
+              <div class="heading-row mt-120">
+                <h2 class="heading large white">نمونه کار ها</h2>
+              </div>
+              <p class="lead white">
+                شرکت برگ به پشتوانه طراحی چشم نواز و پیاده سازی با کیفیت موفق به همکاری با معتبرترین شرکت های ایران شده است.
+              </p>
+              <p class="lead white mb-40">
+                در این بخش گزیده ای از نمونه کارهای طراحی سایت این مجموعه را مشاهده میکنید.با مراجعه به صفحه هر نمونه کار اطلاعات تکمیلی از آن پروژه به شما نمایش داده میشود.
+              </p>
+              <a href="portfolio" class="cta-button btn btn-lg btn-glow rounded btn-color"><span>بیشتر</span></a>
+            </div>
+            <div class="col-md-7 col-md-offset-1 works-mobile">
+              <!-- Swiper slider -->
+              <div class="swiper-container v-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide-1"></div>
+                  <div class="swiper-slide slide-2"></div>
+                  <div class="swiper-slide slide-3"></div>
+                  <div class="swiper-slide slide-4"></div>
+                  <div class="swiper-slide slide-5"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!-- end vertical slider -->
+
+
+      <!-- Testimonials -->
+      <!-- <section class="section-wrap parallax-testimonials nopadding relative">
+
+        <div class="relative">
+          <div id="owl-testimonials" class="owl-carousel owl-theme light-arrows text-center">
+            <div class="item">
+              <div class="container testimonial">
+                <div class="row">
+                  <div class="col-md-12">
+                    <span class="quote white">“</span>
+                    <p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with this agency.</p>
+                    <span>— Sara Simpson, CEO of Company</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="container testimonial">
+                <div class="row">
+                  <div class="col-md-12">
+                    <span class="quote white">“</span>
+                    <p class="testimonial-text">This is excellent theme. It have many useful features that can be use for any kind of business. The support is just  amazing and design</p>
+                    <span>— John C. Marshall, Art Director</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="container testimonial">
+                <div class="row">
+                  <div class="col-md-12">
+                    <span class="quote white">“</span>
+                    <p class="testimonial-text">I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with enigma agency.</p>
+                    <span>— Clint Eastwood, Actor</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="parallax" data-stellar-background-ratio="0.5"></div>
+      </section> -->
+
+      <!-- end testimonials -->
+
+
+      <!-- Our Team -->
+      <section class="section-wrap our-team bg-light animated">
+        <div class="container">
+
+          <div class="row heading-row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <p class="subheading">مجموعه ای خلاق</p>
+              <h2 class="heading large">اعضای ما</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 col-xs-6 col-xxs-12">
+              <div class="team-wrap mb-30">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="img/javad karami.jpg" alt="جواد کرمی">
+                    <div class="overlay">
+                      <div class="social-icons rounded text-center">
+                        <a href="instagram.com/jv_kmi"><i class="fab fa-instagram"></i></a>
+                        <a href="t.me/jv_kmi"><i class="fab fa-telegram"></i></a>
+                        <a href="mailto:javadkarami1376@gmail.com"><i class="fa fa-google-plus"></i></a>
+                        <a href="mailto:javadkarami14@yahoo.com"><i class="fa fa-envelope"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-details text-center">
+                    <h4 class="team-title">جواد کرمی</h4>
+                    <span>Senior Programmer</span>
+                  </div>
+                </div>
+              </div> <!-- end team member -->
+            </div>
+
+            <div class="col-md-3 col-xs-6 col-xxs-12">
+              <div class="team-wrap mb-30">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="img/amin rashid.jpg" alt="محمد امین رشید">
+                    <div class="overlay">
+                      <div class="social-icons rounded text-center">
+                        <a href="instagram.com/aminthemar"><i class="fab fa-instagram"></i></a>
+                        <a href="t.me/aminthemar"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-details text-center">
+                    <h4 class="team-title">محمد امین رشید</h4>
+                    <span>Graphic Designer</span>
+                  </div>
+                </div>
+              </div> <!-- end team member -->
+            </div>
+
+            <div class="col-md-3 col-xs-6 col-xxs-12">
+              <div class="team-wrap mb-30">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="img/hossein-asmand.jpg" alt="حسین آسمند">
+                    <div class="overlay">
+                      <div class="social-icons rounded text-center">
+                        <a href="instagram.com/hossein_ai7"><i class="fab fa-instagram"></i></a>
+                        <a href="t.me/Hossein_AI7"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-details text-center">
+                    <h4 class="team-title">حسین آسمند</h4>
+                    <span>Backend Developer</span>
+                  </div>
+                </div>
+              </div> <!-- end team member -->
+            </div>
+
+            <div class="col-md-3 col-xs-6 col-xxs-12">
+              <div class="team-wrap mb-30">
+                <div class="team-member text-center">
+                  <div class="team-img">
+                    <img src="img/hossein-taromi.jpg" alt="محمد حسین طارمی">
+                    <div class="overlay">
+                      <div class="social-icons rounded text-center">
+                        <a href="instagram.com/hosseintaromi"><i class="fab fa-instagram"></i></a>
+                        <a href="t.me/hosseintaromi"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="team-details text-center">
+                    <h4 class="team-title">محمد حسین طارمی</h4>
+                    <span>Senior Programmer</span>
+                  </div>
+                </div>
+              </div> <!-- end team member -->
+            </div>
+
+          </div>
+
+        </div>
+      </section> <!-- end our team -->
+
+      <!-- Partners -->
+      <!--<section class="section-wrap partners bg-color animated">-->
+      <!--  <div class="container">-->
+      <!--    <div class="row">-->
+
+      <!--      <div id="owl-partners" class="owl-carousel owl-theme">-->
+
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_1.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_2.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_3.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_4.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_5.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_6.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_1.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+      <!--        <div class="item">-->
+      <!--          <a href="#">-->
+      <!--            <img src="img/partner_logo_2.png" alt="">-->
+      <!--          </a>-->
+      <!--        </div>-->
+
+      <!--      </div> <!-- end carousel -->-->
+
+      <!--    </div>-->
+      <!--  </div>-->
+      <!--</section>-->
+      <!-- end partners -->
+
+      <!-- From Blog -->
+      <section class="section-wrap blog-masonry animated">
+        <div class="container-fluid">
+
+          <div class="row heading-row">
+            <div class="col-md-8 col-md-offset-2 text-center">
+              <p class="subheading">داغ ترین موضوعات</p>
+              <h2 class="heading large">آخرین مقالات</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <article class="col-md-3 col-sm-6 col-xs-12 nopadding">
+              <div class="entry-item">
+                <div class="entry-img">
+                  <a href="Blog\bolg-google-adwords-ads.html" class="hover-scale dark-gradient">
+                    <img src="img/blog_1.jpg" alt="گوگل ادوردز">
+                  </a>
+                  <div class="entry-wrap">
+                    <div class="entry">
+                      <h4 class="entry-title"><a href="Blog\bolg-google-adwords-ads.html">تبلیغات Google Adwords</a></h4>
+                      <ul class="entry-meta">
+                        <li>Aug 06, 2018</li>
+                        <li><a href="#">Web design</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article> <!-- end post -->
+
+            <article class="col-md-3 col-sm-6 col-xs-12 nopadding">
+              <div class="entry-item">
+                <div class="entry-img">
+                  <a href="blog" class="hover-scale dark-gradient">
+                    <img src="img/blog_2.jpg" alt="xampp">
+                  </a>
+                  <div class="entry-wrap">
+                    <div class="entry">
+                      <h4 class="entry-title"><a href="blog">ایجاد سرور محلی با XAMPP</a></h4>
+                      <ul class="entry-meta">
+                        <li>Jul 14, 2018</li>
+                        <li><a href="#">Web design</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article> <!-- end post -->
+
+            <article class="col-md-3 col-sm-6 col-xs-12 nopadding">
+              <div class="entry-item">
+                <div class="entry-img">
+                  <a href="blog" class="hover-scale dark-gradient">
+                    <img src="img/blog_3.jpg" alt="بازاریابی">
+                  </a>
+                  <div class="entry-wrap">
+                    <div class="entry">
+                      <h4 class="entry-title"><a href="blog">استراتژی بازاریابی محتوا در ترافیک ارگانیک وب سایت</a></h4>
+                      <ul class="entry-meta">
+                        <li>Jul 27, 2018</li>
+                        <li><a href="#">Barg design</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article> <!-- end post -->
+
+            <article class="col-md-3 col-sm-6 col-xs-12 nopadding">
+              <div class="entry-item">
+                <div class="entry-img">
+                  <a href="blog" class="hover-scale dark-gradient">
+                    <img src="img/blog_4.jpg" alt="سئو سایت">
+                  </a>
+                  <div class="entry-wrap">
+                    <div class="entry">
+                      <h4 class="entry-title"><a href="blog">انتخاب کلمه کلیدی بعد از طراحی سایت برای افزایش سئو</a></h4>
+                      <ul class="entry-meta">
+                        <li>Jul 14, 2016</li>
+                        <li><a href="#">Tech</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article> <!-- end post -->
+          </div> <!-- end row -->
+
+          <div class="row mt-40">
+            <div class="col-md-12 text-center">
+              <a href="blog" class="btn btn-lg btn-glow btn-stroke rounded"><span>همه مقالات</span></a>
+            </div>
+          </div>
+        </div>
+
+      </section> <!-- end from blog -->
+
+      <!-- CTA -->
+      <section class="section-wrap call-to-action bg-light animated">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-xs-12 text-center">
+              <h2>آماده همکاری با ما هستید؟</h2>
+              <p class="lead">
+                برگ دیزاین مجموعه ای جوان، فعال، خلاق و به روز در زمینه تولید اپلیکیشن و طراحی وبسایت می باشد.
+              </p>
+              <p class="lead">
+                برای همکاری، فرم سفارش پروژه را پر نمایید تا همکاران ما با شما تماس گیرند.
+              </p>
+              <div class="cta-buttons mt-30">
+                <a href="contact/index.html" class="btn btn-lg btn-color btn-glow rounded"><span>سفارش پروژه</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</section>
+
+
+
+<!-- end cta -->
+
+<!-- Footer Type-1 -->
+<footer class="footer footer-type-1 bg-dark">
+  <div class="container-fluid semi-fluid">
+    <div class="footer-widgets">
+      <div class="row">
+
+
+
+        <div class="col-md-3 col-sm-6 col-xs-12 nopadding last">
+          <div class="widget last">
+            <h5>کار های اخیر</h5>
+            <ul class="recent-works clearfix">
+              <li>
+                <a href="http://tmb-co.info">
+                  <img src="img/vert_slider_1.jpg" alt="شرکت تولید ملزومات برق">
+                </a>
+              </li>
+              <li>
+                <a href="http://silvernata.com">
+                  <img src="img/vert_slider_2.jpg" alt="شرکت silvernata">
+                </a>
+              </li>
+              <li>
+                <a href="http://jvkmi.barg.xyz">
+                  <img src="img/vert_slider_3.jpg" alt="سایت شخصی جواد کرمی">
+                </a>
+              </li>
+              <li>
+                <a href="http://gbsjonoub.ir">
+                  <img src="img/vert_slider_5.jpg" alt="شرکت گلبوته های سرخ جنوب">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- end recent works -->
+
+        <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+          <div class="widget recent-posts">
+            <h5>آخرین مقالات</h5>
+            <div class="entry-list">
+              <ul>
+                <li class="entry-li">
+                  <article class="post-small clearfix">
+                    <div class="entry">
+                      <h3 class="entry-title"><a href="Blog\bolg-google-adwords-ads.html">تبلیغات Google Adwords</a></h3>
+                    </div>
+                  </article>
+                </li>
+                <li class="entry-li">
+                  <article class="post-small clearfix">
+                    <div class="entry">
+                      <h3 class="entry-title"><a href="blog">ایجاد سرور محلی با XAMPP</a></h3>
+                    </div>
+                  </article>
+                </li>
+                <li class="entry-li">
+                  <article class="post-small clearfix">
+                    <div class="entry">
+                      <h3 class="entry-title"><a href="blog">استراتژی بازاریابی محتوا در ترافیک ارگانیک وب سایت</a></h3>
+                    </div>
+                  </article>
+                </li>
+                <li class="entry-li">
+                  <article class="post-small clearfix">
+                    <div class="entry">
+                      <h3 class="entry-title"><a href="blog">انتخاب کلمه کلیدی بعد از طراحی سایت برای افزایش سئو</a></h3>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> <!-- end latest posts -->
+
+        <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+          <div class="widget footer-get-in-touch">
+            <h5>با ما در تماس باشید</h5>
+            <address class="footer-address">تهران - ستارخان<br> نبش کوچه آفرند - پلاک 3 - واحد 5 </address>
+            <p style="direction:ltr; text-align:right"><a href="tel:+989302505002">+98 930 250 5002</a></p>
+            <p><a href="mailto:info@barg.xyz">info@barg.xyz</a></p>
+          </div>
+        </div> <!-- end stay in touch -->
+
+        <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+          <div class="widget footer-about-us">
+            <img class="logo" src="img/NewBarg.png" alt="logo">
+            <p class="mb-0 mt-10">برگ دیزاین مجموعه ای جوان، فعال، خلاق و به روز در زمینه تولید اپلیکیشن و طراحی وبسایت می باشد.</p>
+            <div class="social-icons dark rounded mt-20">
+              <a href="instagram.com/jv_kmi"><i class="fab fa-instagram"></i></a>
+              <a href="t.me/jv_kmi"><i class="fab fa-telegram"></i></a>
+              <a href="mailto:javadkarami1376@gmail.com"><i class="fa fa-google-plus"></i></a>
+              <a href="mailto:javadkarami14@yahoo.com"><i class="fa fa-envelope"></i></a>
+            </div>
+          </div>
+        </div> <!-- end about us -->
+
+      </div>
+    </div>
+  </div> <!-- end container -->
+
+  <div class="bottom-footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-12 copyright text-center">
+                <span style="direction:ltr">
+                  © 2018
+                  <strong><a href="http://barg.xyz"> BARG </a></strong>
+                  . All Rights Reserved
+                </span>
+        </div>
+
+      </div>
+    </div>
+  </div> <!-- end bottom footer -->
+</footer> <!-- end footer -->
+
+
+<div id="back-to-top">
+  <a href="#top"><i class="fa fa-angle-up"></i></a>
+</div>
+
+</div> <!-- end content wrapper -->
+</div> <!-- end main wrapper -->
+
+<!-- jQuery Scripts -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/plugins.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="js/rev-slider.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+
+<!-- Animated Icons -->
+<script type="text/javascript">
+  function initAnimatedIcons() {
+    new Vivus('svg-icon-1', {duration: 150, file: 'fonts/svg/basic_pencil_ruler.svg' });
+    new Vivus('svg-icon-2', {duration: 150, file: 'fonts/svg/basic_life_buoy.svg' });
+    new Vivus('svg-icon-3', {duration: 150, file: 'fonts/svg/basic_display.svg' });
+  }
+
+  $(window).load(function(){
+    initAnimatedIcons();
+  });
+</script>
+
+
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+
+</body>
+</html>

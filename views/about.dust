@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <title>Barg Design | About us</title>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Poppins:400,600,700%7CLato:400,700%7CLora:400,400italic' rel='stylesheet'>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/magnific-popup.css" />
+  <link rel="stylesheet" href="../css/font-icons.css" />
+  <link rel="stylesheet" href="../css/sliders.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+  <link rel="stylesheet" href="../css/spacings.css" />
+  <link rel="stylesheet" href="../css/animate.min.css" />
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+
+</head>
+
+<body class="relative">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <!-- Sidenav -->
+
+
+  <section class="other-section">
+    <section class="other-section">
+      <section class="sidenav">
+        <div class="logo-wrap">
+          <a href="../index.html">
+            <img class="logo" src="../img/logo_light.png" alt="logo">
+          </a>
+        </div>
+        <h6 class="white mt-40">تماس با ما</h6>
+        <address class="info-address">تهران - ستارخان<br> نبش کوچه آفرند - پلاک 3 - واحد 5 </address>
+        <p >تلفن: <a href="tel:+989302505002" style="direction:ltr;">2005 250 93 98+</a></p>
+        <p>ایمیل: <a href="mailto:info@barg.xyz">info@barg.xyz</a></p>
+        <h6 class="white mt-40">لینک های مفید</h6>
+        <ul class="links-list nopadding">
+          <li><a href="../portfolio">نمونه کار ها</a></li>
+          <li><a href="#">درباره ما</a></li>
+          <li><a href="../blog">بلاگ</a></li>
+        </ul>
+
+        <div class="social-icons dark rounded mt-40">
+          <a href="instagram.com/jv_kmi"><i class="fab fa-instagram"></i></a>
+          <a href="t.me/jv_kmi"><i class="fab fa-telegram"></i></a>
+          <a href="mailto:javadkarami1376@gmail.com"><i class="fa fa-google-plus"></i></a>
+          <a href="mailto:javadkarami14@yahoo.com"><i class="fa fa-envelope"></i></a>
+        </div>
+      </section>
+
+    <div class="main-wrapper">
+
+      <header class="nav-type-1">
+
+        <div class="search-wrap">
+          <div class="search-inner">
+            <div class="search-cell">
+              <form method="get">
+                <div class="search-field-holder">
+                  <input type="search" class="form-control main-search-input" placeholder="Search for">
+                  <i class="ti-close search-close" id="search-close"></i>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <nav class="navbar navbar-static-top">
+          <div class="navigation">
+            <div class="container-fluid semi-fluid relative">
+
+              <div class="row">
+
+                <div class="navbar-header">
+                  <!-- Logo -->
+                  <div class="logo-container">
+                    <div class="logo-wrap">
+                      <a href="../index.html">
+                        <img class="logo-dark" src="../img/logo_dark.png" alt="logo">
+                      </a>
+                    </div>
+                  </div>
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+
+                </div> <!-- end navbar-header -->
+
+                <div class="col-md-12 nav-wrap">
+                  <div class="collapse navbar-collapse text-center" id="navbar-collapse">
+
+                    <ul class="nav navbar-nav">
+
+                      <li>
+                        <a href="../">خانه</a>
+                      </li>
+                      <li>
+                        <a href="../services">خدمات</a>
+                      </li>
+                      <li>
+                        <a href="../portfolio">نمونه کار ها</a>
+                      </li>
+                      <li>
+                        <a href="#">درباره ما</a>
+                      </li>
+                      <li>
+                        <a href="../blog">بلاگ</a>
+                      </li>
+                      <li>
+                        <a href="../contact">تماس با ما</a>
+                      </li>
+
+
+
+
+
+
+                    </ul> <!-- end menu -->
+                  </div> <!-- end collapse -->
+                </div> <!-- end col -->
+
+                <ul class="nav-right hidden-sm hidden-xs">
+
+
+
+
+                  <li class="nav-icon-trigger">
+                    <a href="#" id="nav-icon">
+                      <div class="nav-icon-inner">
+                        <div class="nav-icon-wrap">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+
+              </div> <!-- end row -->
+            </div> <!-- end container -->
+          </div> <!-- end navigation -->
+        </nav> <!-- end navbar -->
+      </header>
+
+      <div class="content-wrapper oh">
+
+        <!-- Page Title -->
+        <section class="page-title style-2" style="background-image: url(../img/about_us_title_bg_2.jpg);">
+          <div class="container relative clearfix">
+            <div class="title-holder">
+              <div class="title-text">
+                <h1>درباره ما</h1>
+              </div>
+            </div>
+          </div>
+        </section> <!-- end page title -->
+
+        <!-- About us / Progress Bars -->
+        <section class="section-wrap">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-6">
+                <div class="about-description mb-40">
+                  <h3>شرکت برنامه نویسی برگ</h3>
+                  <p>
+                    <strong>برگ</strong>
+                    مجموعه ای جوان، فعال، خلاق و به روز در زمینه تولید نرم افزار و راهکار های تحت وب می باشد. این مجموعه با تیمی مستعد در زمینه برنامه نویسی، طراحی گرافیک، طراحی وب سایت و اپلیکیشن در قالب یک شرکت ثبت شده حقوقی، حیات خود را آغاز نمود.
+                  </p>
+                  <br>
+                  <p class="mb-0">
+                    شاید این پرسش مطرح گردد که با وجود شرکت های متعدد طراحی وب سایت و نرم افزار؛ چرا
+                    <strong>برگ</strong>
+                    شکل گرفت؟! پاسخ شاید ظاهری شعار گونه داشته باشد اما خاستگاه
+                    <strong>برگ</strong>
+                    ، تحقق رضایت مندی مشتریان یا کارفرمایانی است که غالبا پس از اتمام قرارداد منعقده با پیمانکار خود نه تنها به نتیجه مطلوب نرسیده اند بلکه از حداقل خدمات و سرویس های پیشتیبانی محرومند و یا حتی با سردی با آنها برخورد می شود. علت این موضوع می تواند بها دادن پیمانکار به مشتریان جدید خود باشد. فراموش نکنیم که 99% یک قرارداد در زمینه تولید نرم افزار، بخش خدمات و سرویس پشتیبانی است.
+                  </p>
+                </div>
+              </div> <!-- end col -->
+
+              <div class="col-sm-6">
+                <div class="progress-bars skills-progress">
+
+                  <h6>Web Design <span>88%</span></h6>
+                  <div class="progress meter">
+                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="88" class="progress-bar" role="progressbar">
+                      <span class="sr-only">88% Complete</span>
+                    </div>
+                  </div>
+
+                  <h6>App Design <span>92%</span></h6>
+                  <div class="progress meter">
+                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="92" class="progress-bar" role="progressbar">
+                      <span class="sr-only">92% Complete</span>
+                    </div>
+                  </div>
+
+                  <h6>WordPress <span>94%</span></h6>
+                  <div class="progress meter">
+                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="94" class="progress-bar" role="progressbar">
+                      <span class="sr-only">94% Complete</span>
+                    </div>
+                  </div>
+
+                  <h6>PHP <span>78%</span></h6>
+                  <div class="progress meter" id="animated-skills">
+                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="78" class="progress-bar" role="progressbar">
+                      <span class="sr-only">78% Complete</span>
+                    </div>
+                  </div>
+
+                  <h6>Graphic Design <span>86%</span></h6>
+                  <div class="progress meter" id="animated-skills">
+                    <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="86" class="progress-bar" role="progressbar">
+                      <span class="sr-only">86% Complete</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div> <!-- end col -->
+
+            </div>
+            <hr class="mt-40 mb-0">
+          </div>
+        </section> <!-- end progress bars -->
+
+        <!-- Counters -->
+        <!-- <section class="section-wrap pt-0">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-3 col-xs-6 col-xxs-12">
+                <div class="statistic text-center mt-mdm-40">
+                  <span class="timer" data-from="0" data-to="968">&nbsp;</span>
+                  <h5 class="counter-text">Cups of Coffee</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-xs-6 col-xxs-12">
+                <div class="statistic text-center mt-mdm-40">
+                  <span class="timer" data-from="0" data-to="357">&nbsp;</span>
+                  <h5 class="counter-text">Happy Clients</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-xs-6 col-xxs-12">
+                <div class="statistic text-center mt-mdm-40">
+                  <span class="timer" data-from="0" data-to="813">&nbsp;</span>
+                  <h5 class="counter-text">Marketing Goals</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-3 col-xs-6 col-xxs-12">
+                <div class="statistic text-center mt-mdm-40">
+                  <span class="timer" data-from="0" data-to="972">&nbsp;</span>
+                  <h5 class="counter-text">Awesome Ideas</h5>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section> -->
+
+
+        <!-- end counters -->
+
+        <!-- Our Team -->
+        <section class="section-wrap our-team bg-light animated">
+          <div class="container">
+
+            <div class="row heading-row">
+              <div class="col-md-8 col-md-offset-2 text-center">
+                <p class="subheading">مجموعه ای خلاق</p>
+                <h2 class="heading large">اعضای ما</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 col-xs-6 col-xxs-12">
+                <div class="team-wrap mb-30">
+                  <div class="team-member text-center">
+                    <div class="team-img">
+                      <img src="../img/javad karami.jpg" alt="جواد کرمی">
+                      <div class="overlay">
+                        <div class="social-icons rounded text-center">
+                          <a href="instagram.com/jv_kmi"><i class="fab fa-instagram"></i></a>
+                          <a href="t.me/jv_kmi"><i class="fab fa-telegram"></i></a>
+                          <a href="mailto:javadkarami1376@gmail.com"><i class="fa fa-google-plus"></i></a>
+                          <a href="mailto:javadkarami14@yahoo.com"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-details text-center">
+                      <h4 class="team-title">جواد کرمی</h4>
+                      <span>Senior Programmer</span>
+                    </div>
+                  </div>
+                </div> <!-- end team member -->
+              </div>
+
+              <div class="col-md-3 col-xs-6 col-xxs-12">
+                <div class="team-wrap mb-30">
+                  <div class="team-member text-center">
+                    <div class="team-img">
+                      <img src="../img/amin rashid.jpg" alt="محمد امین رشید">
+                      <div class="overlay">
+                        <div class="social-icons rounded text-center">
+                          <a href="instagram.com/aminthemar"><i class="fab fa-instagram"></i></a>
+                          <a href="t.me/aminthemar"><i class="fab fa-telegram"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-details text-center">
+                      <h4 class="team-title">محمد امین رشید</h4>
+                      <span>Graphic Designer</span>
+                    </div>
+                  </div>
+                </div> <!-- end team member -->
+              </div>
+
+              <div class="col-md-3 col-xs-6 col-xxs-12">
+                <div class="team-wrap mb-30">
+                  <div class="team-member text-center">
+                    <div class="team-img">
+                      <img src="../img/hossein-asmand.jpg" alt="حسین آسمند">
+                      <div class="overlay">
+                        <div class="social-icons rounded text-center">
+                          <a href="instagram.com/hossein_ai7"><i class="fab fa-instagram"></i></a>
+                          <a href="t.me/Hossein_AI7"><i class="fab fa-telegram"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-details text-center">
+                      <h4 class="team-title">حسین آسمند</h4>
+                      <span>Backend Developer</span>
+                    </div>
+                  </div>
+                </div> <!-- end team member -->
+              </div>
+
+              <div class="col-md-3 col-xs-6 col-xxs-12">
+                <div class="team-wrap mb-30">
+                  <div class="team-member text-center">
+                    <div class="team-img">
+                      <img src="../img/hossein-taromi.jpg" alt="محمد حسین طارمی">
+                      <div class="overlay">
+                        <div class="social-icons rounded text-center">
+                          <a href="instagram.com/hosseintaromi"><i class="fab fa-instagram"></i></a>
+                          <a href="t.me/hosseintaromi"><i class="fab fa-telegram"></i></a>
+                          <a href="#"><i class="fa fa-google-plus"></i></a>
+                          <a href="#"><i class="fa fa-envelope"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="team-details text-center">
+                      <h4 class="team-title">محمد حسین طارمی</h4>
+                      <span>Senior Programmer</span>
+                    </div>
+                  </div>
+                </div> <!-- end team member -->
+              </div>
+
+            </div>
+
+          </div>
+        </section> <!-- end our team -->
+
+
+
+      <!-- Footer Type-1 -->
+      <footer class="footer footer-type-1 bg-dark">
+        <div class="container-fluid semi-fluid">
+          <div class="footer-widgets">
+            <div class="row">
+
+
+
+              <div class="col-md-3 col-sm-6 col-xs-12 nopadding last">
+                <div class="widget last">
+                  <h5>کار های اخیر</h5>
+                  <ul class="recent-works clearfix">
+                    <li>
+                      <a href="http://tmb-co.info">
+                        <img src="../img/vert_slider_1.jpg" alt="work">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://silvernata.com">
+                        <img src="../img/vert_slider_2.jpg" alt="work">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://jvkmi.barg.xyz">
+                        <img src="../img/vert_slider_3.jpg" alt="work">
+                      </a>
+                    </li>
+                    <li>
+                      <a href="http://gbsjonoub.ir">
+                        <img src="../img/vert_slider_5.jpg" alt="work">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end recent works -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+                <div class="widget recent-posts">
+                  <h5>آخرین مقالات</h5>
+                  <div class="entry-list">
+                    <ul>
+                      <li class="entry-li">
+                        <article class="post-small clearfix">
+                          <div class="entry">
+                            <h3 class="entry-title"><a href="magazine-single-article.html">تبلیغات Google Adwords</a></h3>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="entry-li">
+                        <article class="post-small clearfix">
+                          <div class="entry">
+                            <h3 class="entry-title"><a href="magazine-single-article.html">ایجاد سرور محلی با XAMPP</a></h3>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="entry-li">
+                        <article class="post-small clearfix">
+                          <div class="entry">
+                            <h3 class="entry-title"><a href="magazine-single-article.html">استراتژی بازاریابی محتوا در ترافیک ارگانیک وب سایت</a></h3>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="entry-li">
+                        <article class="post-small clearfix">
+                          <div class="entry">
+                            <h3 class="entry-title"><a href="magazine-single-article.html">انتخاب کلمه کلیدی بعد از طراحی سایت برای افزایش سئو</a></h3>
+                          </div>
+                        </article>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- end latest posts -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+                <div class="widget footer-get-in-touch">
+                  <h5>با ما در تماس باشید</h5>
+                  <address class="footer-address">تهران - ستارخان<br> نبش کوچه آفرند - پلاک 3 - واحد 5 </address>
+                  <p style="direction:ltr; text-align:right"><a href="tel:+989302505002">+ 930 250 5002</a></p>
+                  <p><a href="mailto:info@barg.xyz">info@barg.xyz</a></p>
+                </div>
+              </div> <!-- end stay in touch -->
+
+              <div class="col-md-3 col-sm-6 col-xs-12 nopadding">
+                <div class="widget footer-about-us">
+                  <img class="logo" src="../img/logo_light.png" alt="logo">
+                  <p class="mb-0 mt-10">برگ دیزاین مجموعه ای جوان، فعال، خلاق و به روز در زمینه تولید اپلیکیشن و طراحی وبسایت می باشد.</p>
+                  <div class="social-icons dark rounded mt-20">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                  </div>
+                </div>
+              </div> <!-- end about us -->
+
+            </div>
+          </div>
+        </div> <!-- end container -->
+
+        <div class="bottom-footer">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-12 copyright text-center">
+                <span style="direction:ltr">
+                  © 2018
+                  <strong><a href="http://barg.xyz"> BARG </a></strong>
+                  . All Rights Reserved
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div> <!-- end bottom footer -->
+      </footer> <!-- end footer -->
+
+
+      <div id="back-to-top">
+        <a href="#top"><i class="fa fa-angle-up"></i></a>
+      </div>
+
+    </div> <!-- end content wrapper -->
+  </div> <!-- end main wrapper -->
+
+  <!-- jQuery Scripts -->
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/plugins.js"></script>
+  <script type="text/javascript" src="../js/scripts.js"></script>
+
+</body>
+</html>
