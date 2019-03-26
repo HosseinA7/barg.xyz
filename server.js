@@ -10,7 +10,6 @@ const mongoose = require('mongoose')
 const passport = require('passport')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
-var LocalStrategy = require('passport-local').Strategy;
 // Conenct to DB
 mongoose.connect('mongodb://localhost:27017/barg', {
     useNewUrlParser: true
@@ -39,12 +38,6 @@ app.use(session({
 
 
 app.use('/', dashborad)
-
-
-
-
-
-
 
 
 

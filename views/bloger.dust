@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="post/style.css">
+  <script src="ckeditor/ckeditor.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.quilljs.com/1.1.3/quill.snow.css">
+  <link rel="stylesheet" href="https://cdn.quilljs.com/1.1.3/quill.bubble.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet"
+    href="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/filepond/dist/filepond.min.css">
+
+  <title>Blog Post</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="post/NewBarg.png" alt="logo" style="width:auto; height:53px;">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="form-inline my-2 my-lg-0" style="margin-left:auto;">
+        <button type="button" class="btn btn-info" style="margin-right:15px">پیش نویس</button>
+        <button id="saveDelta" type="submit" class="btn btn-success" style="margin-right:15px;"
+          form="saveForm">انتشار</button>
+        <button type="button" class="btn btn-primary">بازگشت</button>
+      </form>
+    </div>
+  </nav>
+
+  <input type="file" class="filepond" name="filepond" multiple data-max-file-size="3MB" data-max-files="1" />
+
+  <div style="margin: 0 4%; margin-bottom:50px;">
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-pad">
+        <div class="headSubject">
+          <i class="far fa-object-group"></i>
+          <form id="saveForm" action="/bloger" method="POST">
+          <input name="category" type="text" class="headSubjectInput cat-inp form-control" placeholder="دسته بندی">
+        </div>
+        <div class="headSubject">
+          <i class="fas fa-layer-group"></i>
+          <input type="text" class="headSubjectInput cat-inp form-control" placeholder="زیردسته">
+        </div>
+        <div class="headSubject">
+          <i class="fas fa-tv"></i>
+          <textarea name="url" class="headSubjectInput form-control" placeholder="ex: blog/post2"></textarea>
+        </div>
+        <div class="headSubject input_fields_wrap">
+          <i class="fas fa-tags"></i>
+          <input name="tags" type="text" class="headSubjectInput cat-inp form-control" placeholder="برچسب ها">
+        </div>
+        <button class="add_field_button btn btn-primary">برچسب های بیشتر</button>
+
+      </div>
+      <div class="col-lg-9 col-md-12 col-pad">
+        <div class="headSubject">
+          <i class="fas fa-heading"></i>
+          <input name="title" type="text" class="headSubjectInput form-control" placeholder="عنوان مقاله">
+        </div>
+        <div id="toolbar"></div>
+          <textarea name="editor1" id="editor1" rows="10" cols="80">
+                        This is my textarea to be replaced with CKEditor.
+          </textarea>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="editorBox">
+        <div id="toolbar"></div>
+        <div id="editor"></div>
+    </div>
+     -->
+
+
+
+
+  <script>
+    CKEDITOR.replace('editor1');
+  </script>
+
+  <!-- file upload itself is disabled in this pen -->
+  <script src='https://unpkg.com/filepond-plugin-file-encode/dist/filepond-plugin-file-encode.min.js'></script>
+  <script src='https://unpkg.com/filepond-plugin-file-validate-size/dist/filepond-plugin-file-validate-size.min.js'>
+  </script>
+  <script
+    src='https://unpkg.com/filepond-plugin-image-exif-orientation/dist/filepond-plugin-image-exif-orientation.min.js'>
+  </script>
+  <script src='https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.js'></script>
+  <script src='https://unpkg.com/filepond/dist/filepond.min.js'></script>
+
+
+  <script src="post/js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

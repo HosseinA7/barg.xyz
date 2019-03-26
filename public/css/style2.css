@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+}
+.send{
+    margin-top: 25px;
+    background-color: #4CAF50;
+    padding: 7px 22px;
+    color: white;
+    border-radius: 2px;
+}
+.logout{
+    margin-top: 10px;
+    background-color: rgb(255, 71, 71);
+    padding: 7px 15px;
+    color: white;
+    border-radius: 2px;
+}
+.btn1{
+    display: block;
+    margin-top: 15px;
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
+.input{
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.satr{
+    vertical-align: middle;
+
+}
+
+
+.satr{
+    vertical-align: middle !important;
+}
+.colu{
+    border: 0.2px ridge rgb(0, 71, 2);
+    background-color: rgb(180, 179, 179);
+    text-align: center;
+}
+p{
+    margin-bottom: 0rem !important;
+}
