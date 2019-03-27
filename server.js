@@ -14,7 +14,7 @@ const cookieParser = require('cookie-parser')
 mongoose.connect('mongodb://localhost:27017/barg', {
     useNewUrlParser: true
 })
-
+mongoose.set('useCreateIndex', true);
 
 
 app.engine('dust', cons.dust);

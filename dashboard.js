@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const mongoose = require('mongoose')
+const path = require('path')
 const passport = require('passport')
 const session = require('express-session')
 var LocalStrategy = require('passport-local').Strategy;
@@ -8,6 +9,30 @@ var User = require('./models/user')
 var Post = require('./models/post')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
+const multer = require('multer');
+
+const storage = multer.diskStorage({
+  destination: function(req, file, cb) {
+    cb(null, './uploads/');
+  },
+  filename: function(req, file, cb) {
+    cb(null, Date.now()+'_'+ file.originalname)  }
+});
+
+const fileFilter = (req, file, cb) => {
+  if (file.mimetype === 'image/jpeg' || file.mimetype === 'image/png') {
+    cb(null, true);
+  } else {
+    cb(null, false);
+  }
+};
+const upload = multer({
+  storage: storage,
+  limits: {
+    fileSize: 1024 * 1024 * 3
+  },
+  fileFilter: fileFilter
+});
 var unscape = require('unescape');
 // Conenct to DB
 mongoose.connect('mongodb://localhost:27017/barg', {
@@ -171,7 +196,7 @@ router.post('/login', passport.authenticate('local', {
 })
 
 
-router.post('/bloger', redirectHome, (req, res) => {
+router.post('/bloger', redirectHome, upload.single('filename'),(req, res) => {
 
 
   new Post({
@@ -180,6 +205,7 @@ router.post('/bloger', redirectHome, (req, res) => {
     title: req.body.title,
     category: req.body.category,
     tags: req.body.tags,
+    Image:req.file.path,
     url: req.body.url
   }).save(function (err, doc) {
 

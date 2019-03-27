@@ -22,8 +22,12 @@ var postSchema = new mongoose.Schema({
   tags: {
     type: String
   },
+  Image: {
+    type: String
+  },
 
   url: {
+    unique: true,
     type: String
   },
 
@@ -33,7 +37,7 @@ var postSchema = new mongoose.Schema({
 
 postSchema.pre('save', function (next) {
   var currentDate = new Date()
-  if(!this.created_at){
+  if (!this.created_at) {
     this.created_at = currentDate
   }
   next()
