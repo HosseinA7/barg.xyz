@@ -8,12 +8,13 @@ var LocalStrategy = require('passport-local').Strategy;
 var User = require('./models/user')
 var Post = require('./models/post')
 const bodyParser = require('body-parser')
+const paginate = require('express-paginate');
 const cookieParser = require('cookie-parser')
 const multer = require('multer');
 
 const storage = multer.diskStorage({
   destination: function(req, file, cb) {
-    cb(null, './uploads/');
+    cb(null, './public/uploads/');
   },
   filename: function(req, file, cb) {
     cb(null, Date.now()+'_'+ file.originalname)  }
@@ -33,7 +34,6 @@ const upload = multer({
   },
   fileFilter: fileFilter
 });
-var unscape = require('unescape');
 // Conenct to DB
 mongoose.connect('mongodb://localhost:27017/barg', {
   useNewUrlParser: true
@@ -42,6 +42,7 @@ const MongoClient = require('mongodb').MongoClient;
 var url = 'mongodb://localhost:27017/'
 const dbName = 'barg';
 
+router.use(paginate.middleware(3, 50));
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
   extended: false
@@ -88,9 +89,41 @@ router.get('/about', (req, res) => {
 })
 
 //*صفحه بلاگ
-router.get('/blog', (req, res) => {
-  res.render('blog')
-})
+router.get('/posts', async (req, res, next) => {
+
+  try {
+
+    const [ results, itemCount ] = await Promise.all([
+      Post.find({}).limit(req.query.limit).skip(req.skip).lean().exec(),
+      Post.count({})
+    ]);
+
+    const pageCount = Math.ceil(itemCount / req.query.limit);
+
+    // if (req.accepts('json')) {
+    //   // inspired by Stripe's API response for list objects
+    //   res.json({
+    //     object: 'list',
+    //     has_more: paginate.hasNextPages(req)(pageCount),
+    //     data: results
+    //   });
+    // } else {
+      res.render('blog.pug', {
+        posts: results,
+        pageCount,
+        itemCount,
+        pages: paginate.getArrayPages(req)(3, pageCount, req.query.page)
+      });
+    // }
+
+  } catch (err) {
+    next(err);
+  }
+
+});
+
+
+
 
 //*صفحه بلاگر
 router.get('/bloger', redirectHome, (req, res) => {
@@ -139,19 +172,22 @@ router.get('/blog/:path', async (req, res) => {
     })
   }
 
-
-
   Post.find({
-    username: "a"
+    username: "a",
+    url: req.params.path
   }, function (err, result) {
     if (err) throw err;
-
-    res.render('blog', {
-      post: result[0].url
+    console.log(result[0].Image);
+    var NewPath = (result[0].Image).replace('public','').replace(/\\/g ,'/')
+    console.log(NewPath);
+    
+    res.render('postPage', {
+      title: result[0].title,
+      post: result[0].content,
+      Image:NewPath
     })
   });
 });
-
 
 passport.serializeUser(function (user, done) {
   done(null, user)

@@ -1,0 +1,23 @@
+html
+    head
+      style  
+        link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T', crossorigin='anonymous')
+    body
+        h1 Posts
+
+        //- this will simply generate a link to sort by name
+        //- note how we only have to pass the querystring param
+        //- that we want to modify here, not the entire querystring
+        //- a(href=paginate.href({ sort: 'name' })) Sort by name
+
+        //- this assumes you have `?age=1` or `?age=-1` in the querystring
+        //- so this will basically negate the value and give you
+        //- the opposite sorting order (desc with -1 or asc with 1)
+        //- a(href=paginate.href({ sort: req.query.age === '1' ? -1 : 1 })) Sort by age
+        ul
+        each post in posts
+            li= post.title
+        include _paginate
+        script(src='https://code.jquery.com/jquery-3.3.1.slim.min.js', integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo', crossorigin='anonymous')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')

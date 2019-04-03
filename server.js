@@ -16,7 +16,7 @@ mongoose.connect('mongodb://localhost:27017/barg', {
 })
 mongoose.set('useCreateIndex', true);
 
-
+app.set('view engine', 'pug');
 app.engine('dust', cons.dust);
 app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'dust');
